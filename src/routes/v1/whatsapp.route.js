@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const whatsappService = require('../services/whatsapp.service');
+const whatsappService = require('../../services/whatsapp.service');
 
 // Inicializa o WhatsApp na primeira chamada
 router.get('/connect', async (req, res) => {
